@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="scss/shouer.css">
+    <title>详情</title>
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio; //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 10 + "px";
+    </script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="zuo">&lt;</a>
+        <span class="fdj">&#xe60d;</span>
+    </header>
+    <div class="none"></div>
+    <div class="pic"> <img src="img/pic.png" alt=""></div>
+    <div class="gonglv">
+        <div class="box">
+            <h3>【2018丨首尔旅游攻略】</h3>
+            <div class="yonghu">
+                <img src="img/touxiang.png" alt="">
+                <div class="ziliao">
+                    <h3>小师妹 <span class="sex"><img src="img/sex.png" alt=""></span></h3>
+                    <p class="da">66<span>回复丨</span>431<span>收藏丨</span>5684<span>浏览</span></p>
+                    <p class="xiao">发布于2018-03-12 10：32</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="xc">
+        <p class="xcd">行程单</p>
+        <div class="five" id="five">
+            <div class="d1">
+                <h3>D1
+                    <span>04-05</span>
+                </h3>
+                <p><span>上海-首尔</span>
+                    在阿里旅行上买机票，一开始看的时候是南航，早上8：30起
+                    飞，回来那天18：55起飞，感觉时间都是极好的
+                </p>
+            </div>
+            <div class="d1">
+                <h3>D2
+                    <span>04-05</span>
+                </h3>
+                <p>
+                    首尔的酒店，一开始是在携程上看的，按照地理位置，酒店
+                    星级数，看中了一家位于明洞的“明洞天空花园中央酒店”，
+                    4晚2700+，而且此酒店还有公主房，可惜没订到。
+                </p>
+            </div>
+            <div class="d1">
+                <h3>D3
+                    <span>04-05</span>
+                </h3>
+                <p>
+                    签证，很简单，相信大部分同学们都是这样，taobao拍上韩
+                    国签证，小歪找的那家，258一人，上海地区还不需要财产
+                    证明，只需要护照，照片，身份证，填表格就行了
+                </p>
+            </div>
+            <div class="d1" id="d4">
+                <h3>D4
+                    <span>04-05</span>
+                </h3>
+                <p>
+                    签证，很简单，相信大部分同学们都是这样，taobao拍上韩
+                    国签证，小歪找的那家，258一人，上海地区还不需要财产
+                    证明，只需要护照，照片，身份证，填表格就行了
+                </p>
+            </div>
+            <div class="d1" id="d5">
+                <h3>D5
+                    <span>04-05</span>
+                </h3>
+                <p>
+                    签证，很简单，相信大部分同学们都是这样，taobao拍上韩
+                    国签证，小歪找的那家，258一人，上海地区还不需要财产
+                    证明，只需要护照，照片，身份证，填表格就行了
+                </p>
+            </div>
+            <div class="chakan" id="chakan">查看全部五日行程&or;</div>
+        </div>
+        <div class="fan"><img src="img/fan.png" alt=""></div>
+        <div class="pxt"><img src="img/pxt.png" alt=""></div>
+        <p class="xia">1. 通讯：去某宝上买韩国电话卡最方便，大概10元/天
+                        ，别再买蛋了，那个东西又重又麻烦价格跟电话卡差不
+                        多<br>
+                        2. 机场市区交通：无论仁川&金浦又快又便宜的方式
+                        是地铁；巴士时间较长价格比地铁贵些；打车巨贵打不
+                        起。所以我一般是坐地铁从仁川到市区&坐大巴从市区
+                        回机场（视个人情况而定，如果酒店附近有机场巴士车
+                        站，你又不怎么赶时间，大巴还是非常省力的）。
+                        机场巴士：通往市区各酒店的豪华大巴90元左右，
+                        高峰时段要2个小时到机场。
+        </p>
+    </div>
+    <footer>
+        <div class="zan">
+            <img src="img/zan.png" alt="">赞229
+        </div>
+        <div class="huifu">回复楼主</div>
+            <img src="img/xx.png" alt="" class="imgxx">
+            <img src="img/fenx.png" alt="" class="imgpx">
+    </footer>
+</body>
+<script>
+    var chakan=document.getElementById("chakan")
+    var d4=document.getElementById("d4")
+    var d5=document.getElementById("d5")
+    chakan.onclick=function(){
+        d4.style.cssText="display:flex"
+        d5.style.cssText="display:flex"
+        chakan.style.cssText="display:none"
+        }
+</script>
+</html>

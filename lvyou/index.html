@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <title>旅游</title>
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio; //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 10 + "px";
+    </script>
+</head>
+<body>
+    <script src="dist/js/swiper.min.js"></script>
+    <header>
+        <p class="hf">上海</p>
+        <img src="img/jtx.png" alt="">
+        <div class="sousuo"><span class="fdj">&#xe60d;</span>搜 “新西兰” 试试</div> 
+    </header>
+    <div class="none"></div>
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/banner.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/banner.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/banner.png" alt=""></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    </div>
+    <div class="rmjd">
+        <h3>热门景点</h3>   
+        <div class="kuang" id="kuang">
+            <ul class="city" id="city">
+                <li class="active">上海</li>
+                <li class="">成都</li>
+                <li class="">北京</li>
+                <li class="">三亚</li>
+            </ul>
+            <dl class="shh">
+                <dd>
+                    <a href="shouer.html"><img src="img/disney.png" alt=""></a>
+                    <p class="name">上海迪士尼乐园</p>
+                    <p class="huise">Disney 家庭旅游必去</p>                    
+                </dd>
+                <dd>
+                    <img src="img/dfmz.png" alt="">
+                    <p class="name">东方明珠电视塔</p>
+                    <p class="huise">感受高空云端漫步上海</p>                    
+                </dd>
+                <dd>
+                    <img src="img/zjj.png" alt="">
+                    <p class="name">古镇朱家角</p>
+                    <p class="huise">逛沪上第一明清北大街</p>                    
+                </dd>
+            </dl>
+            <dl class="">
+                <dd>
+                    <img src="img/disney.png" alt="">
+                    <p class="name">成都迪士尼乐园</p>
+                    <p class="huise">Disney 家庭旅游必去</p>                    
+                </dd>
+                <dd>
+                    <img src="img/dfmz.png" alt="">
+                    <p class="name">成都东方明珠电视塔</p>
+                    <p class="huise">感受高空云端漫步上海</p>                    
+                </dd>
+                <dd>
+                    <img src="img/zjj.png" alt="">
+                    <p class="name">成都古镇朱家角</p>
+                    <p class="huise">逛沪上第一明清北大街</p>                    
+                </dd>
+            </dl>
+            <dl class="">
+                <dd>
+                    <img src="img/disney.png" alt="">
+                    <p class="name">北京迪士尼乐园</p>
+                    <p class="huise">Disney 家庭旅游必去</p>                    
+                </dd>
+                <dd>
+                    <img src="img/dfmz.png" alt="">
+                    <p class="name">北京东方明珠电视塔</p>
+                    <p class="huise">感受高空云端漫步上海</p>                    
+                </dd>
+                <dd>
+                    <img src="img/zjj.png" alt="">
+                    <p class="name">北京古镇朱家角</p>
+                    <p class="huise">逛沪上第一明清北大街</p>                    
+                </dd>
+            </dl>
+            <dl class="">
+                <dd>
+                    <img src="img/disney.png" alt="">
+                    <p class="name">三亚上海迪士尼乐园</p>
+                    <p class="huise">Disney 家庭旅游必去</p>                    
+                </dd>
+                <dd>
+                    <img src="img/dfmz.png" alt="">
+                    <p class="name">三亚东方明珠电视塔</p>
+                    <p class="huise">感受高空云端漫步上海</p>                    
+                </dd>
+                <dd>
+                    <img src="img/zjj.png" alt="">
+                    <p class="name">三亚古镇朱家角</p>
+                    <p class="huise">逛沪上第一明清北大街</p>                    
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="newcity" id="newcity">
+        <h3>城市新玩法</h3>
+        <div class="gushi">
+            <div class="nongt" id="nt"><img src="img/linong.png" alt=""></div>
+            <h3>老灵的里弄上海</h3>
+            <p>果里弄是一副画卷，展开它，你看到的会是上海生动的邻里日常。
+                里弄见证着这个城市的百年风雨，也承载着几代人对“家”的记忆
+            </p>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><img src="img/1.png" alt="">
+                <p>首页</p>
+            </li>
+            <li><img src="img/2.png" alt="">
+                <p>目的地</p>
+            </li>
+            <li><img src="img/3.png" alt="">
+                <p>发现</p>
+            </li>
+            <li><img src="img/4.png" alt="">
+                <p>我</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+  <script>
+        var u1=document.getElementById("city")
+        var box=document.getElementById("kuang")
+        var l1=u1.getElementsByTagName("li")
+        var oul=box.getElementsByTagName("dl")
+        for(var i=0;i<l1.length;i++){
+        l1[i].index=i
+        l1[i].onclick=function(){
+            for(var i=0;i<l1.length;i++){
+            l1[i].className=""
+            oul[i].className=""
+        }
+        this.className = 'active'
+        oul[this.index].className = "shh"
+        }
+}
+    </script>
+    <script>
+        var newcity=document.getElementById("newcity")
+        var nt=document.getElementsByClassName("gushi")
+        function addElementImg(obj) {
+　　　　var img = document.createElement("img");
+
+　　　　//设置 img 属性，如 id
+　　　　img.setAttribute("id", "newImg");
+
+　　　　//设置 img 图片地址
+　　　　img.src = "img/jz.png";
+
+
+　　　　newcity.appendChild(img);
+　　}
+
+　　addElementImg("newcity");
+    var newImg=document.getElementById("newImg")
+    newImg.onclick=function(){
+        var div=document.createElement("div")
+        div.setAttribute("class", "gushi");
+        var h3=document.createElement("h3")
+        var banimg=document.createElement("img")
+        banimg.src="img/linong.png"
+        h3.innerHTML="老灵的里弄上海"
+        var p=document.createElement("p")
+        p.innerHTML="果里弄是一副画卷，展开它，你看到的会是上海生动的邻里日常。 里弄见证着这个城市的百年风雨，也承载着几代人对“家”的记忆"
+        div.appendChild(banimg)
+        div.appendChild(h3)
+        div.appendChild(p)
+        newcity.appendChild(div);
+    }
+    </script>
+</html>
